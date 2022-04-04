@@ -59,7 +59,7 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.5.4",
     "babel-jest": "^27.5.1",
     "concurrently": "^7.0.0",
     "eslint": "^8.9.0",
@@ -67,6 +67,7 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "jest": "^27.5.1",
     "nodemon": "^2.0.15",
+    "prettier": "2.5.1",
     "reactful": "^3.2.4"
   }
 }

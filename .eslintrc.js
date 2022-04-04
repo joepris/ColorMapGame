@@ -1,5 +1,5 @@
 module.exports = {
-  parser: 'babel-eslint',
+  "parser": "@babel/eslint-parser",
   env: {
     browser: true,
     commonjs: true,
@@ -7,8 +7,9 @@ module.exports = {
     node: true,
     jest: true,
   },
-  parserOptions: {
+    parserOptions: {
     ecmaVersion: 2020,
+    "requireConfigFile": false,
     ecmaFeatures: {
       jsx: true,
     },
@@ -26,7 +27,7 @@ module.exports = {
     },
   },
   rules: {
-    'react/prop-types': ['off'],
+    'react/prop-types': ['on'],
     'react/no-unescaped-entities': ['error', { forbid: ['>', '}'] }],
   },
 };
